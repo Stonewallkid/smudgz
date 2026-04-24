@@ -49,7 +49,7 @@ export default function RootLayout({
                 href="https://chrome.google.com/webstore"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="px-4 py-2 bg-pink-400 text-black font-semibold rounded-full text-sm hover:bg-pink-300 transition"
+                className="px-4 py-2 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-sm font-medium hover:opacity-90 transition"
               >
                 Add to Chrome
               </a>

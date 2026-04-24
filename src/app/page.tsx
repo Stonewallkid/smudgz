@@ -11,11 +11,8 @@ export default function Home() {
         <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-pink-500/20 rounded-full blur-[128px]" />
 
         <div className="relative z-10 text-center max-w-4xl mx-auto">
-          {/* Logo with light background fade */}
-          <div className="relative inline-block mb-8">
-            <div className="absolute inset-0 bg-gradient-to-b from-white/90 via-white/70 to-transparent rounded-3xl blur-sm scale-110" />
-            <img src="/logo.png" alt="Smudgz" className="relative h-28 md:h-40 mx-auto" />
-          </div>
+          {/* Logo */}
+          <img src="/logo-white.png" alt="Smudgz" className="h-28 md:h-40 mx-auto mb-8" />
 
           <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent">
             Turn Any Webpage Into a Playground

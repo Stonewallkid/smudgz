@@ -6,15 +6,16 @@ export default function Home() {
       {/* Hero Section */}
       <section className="min-h-[90vh] flex flex-col items-center justify-center px-4 relative overflow-hidden">
         {/* Background gradient */}
-        <div className="absolute inset-0 bg-gradient-to-b from-purple-900/20 via-black to-black" />
-        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-purple-500/30 rounded-full blur-[128px]" />
-        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-pink-500/20 rounded-full blur-[128px]" />
+        <div className="absolute inset-0 bg-gradient-to-b from-pink-900/20 via-black to-black" />
+        <div className="absolute top-1/4 left-1/4 w-96 h-96 bg-pink-500/30 rounded-full blur-[128px]" />
+        <div className="absolute bottom-1/4 right-1/4 w-96 h-96 bg-yellow-500/20 rounded-full blur-[128px]" />
 
         <div className="relative z-10 text-center max-w-4xl mx-auto">
-          <div className="inline-block px-4 py-2 bg-white/10 rounded-full text-sm text-purple-300 mb-6">
+          <div className="inline-block px-4 py-2 bg-white/10 rounded-full text-sm text-pink-300 mb-6">
             Now available on Chrome Web Store
           </div>
-          <h1 className="text-5xl md:text-7xl font-bold mb-6 bg-gradient-to-r from-white via-purple-200 to-pink-200 bg-clip-text text-transparent">
+          <img src="/logo.png" alt="Smudgz" className="h-24 md:h-32 mx-auto mb-6" />
+          <h1 className="text-4xl md:text-6xl font-bold mb-6 bg-gradient-to-r from-white via-pink-200 to-yellow-200 bg-clip-text text-transparent">
             Turn Any Webpage Into a Playground
           </h1>
           <p className="text-xl md:text-2xl text-gray-300 mb-10 max-w-2xl mx-auto">
@@ -25,7 +26,7 @@ export default function Home() {
               href="https://chrome.google.com/webstore"
               target="_blank"
               rel="noopener noreferrer"
-              className="px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-lg font-semibold hover:opacity-90 transition shadow-lg shadow-purple-500/25"
+              className="px-8 py-4 bg-pink-400 text-black rounded-full text-lg font-bold hover:bg-pink-300 transition shadow-lg shadow-pink-500/25"
             >
               Add to Chrome - It&apos;s Free
             </a>
@@ -69,7 +70,7 @@ export default function Home() {
       </section>
 
       {/* Features Section */}
-      <section id="features" className="py-20 px-4 bg-gradient-to-b from-black via-purple-950/10 to-black">
+      <section id="features" className="py-20 px-4 bg-gradient-to-b from-black via-pink-950/10 to-black">
         <div className="max-w-6xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             Everything You Need to Play
@@ -80,7 +81,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {/* Feature 1 */}
-            <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-500/50 transition">
+            <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-pink-500/50 transition">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-red-500 to-orange-500 flex items-center justify-center mb-4 text-2xl">
                 🏃
               </div>
@@ -91,7 +92,7 @@ export default function Home() {
             </div>
 
             {/* Feature 2 */}
-            <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-500/50 transition">
+            <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-pink-500/50 transition">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-green-500 to-emerald-500 flex items-center justify-center mb-4 text-2xl">
                 🏷️
               </div>
@@ -102,7 +103,7 @@ export default function Home() {
             </div>
 
             {/* Feature 3 */}
-            <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-500/50 transition">
+            <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-pink-500/50 transition">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-blue-500 to-cyan-500 flex items-center justify-center mb-4 text-2xl">
                 🎨
               </div>
@@ -113,7 +114,7 @@ export default function Home() {
             </div>
 
             {/* Feature 4 */}
-            <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-500/50 transition">
+            <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-pink-500/50 transition">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-yellow-500 to-amber-500 flex items-center justify-center mb-4 text-2xl">
                 💬
               </div>
@@ -124,7 +125,7 @@ export default function Home() {
             </div>
 
             {/* Feature 5 */}
-            <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-500/50 transition">
+            <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-pink-500/50 transition">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-purple-500 to-pink-500 flex items-center justify-center mb-4 text-2xl">
                 🏗️
               </div>
@@ -135,7 +136,7 @@ export default function Home() {
             </div>
 
             {/* Feature 6 */}
-            <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-purple-500/50 transition">
+            <div className="p-6 rounded-2xl bg-white/5 border border-white/10 hover:border-pink-500/50 transition">
               <div className="w-12 h-12 rounded-xl bg-gradient-to-br from-pink-500 to-rose-500 flex items-center justify-center mb-4 text-2xl">
                 👤
               </div>
@@ -160,7 +161,7 @@ export default function Home() {
 
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-purple-500/20 border border-purple-500/50 flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-purple-400">
+              <div className="w-16 h-16 rounded-full bg-pink-500/20 border border-pink-500/50 flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-pink-400">
                 1
               </div>
               <h3 className="text-lg font-semibold mb-2">Install Extension</h3>
@@ -170,7 +171,7 @@ export default function Home() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-purple-500/20 border border-purple-500/50 flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-purple-400">
+              <div className="w-16 h-16 rounded-full bg-pink-500/20 border border-pink-500/50 flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-pink-400">
                 2
               </div>
               <h3 className="text-lg font-semibold mb-2">Sign In</h3>
@@ -180,7 +181,7 @@ export default function Home() {
             </div>
 
             <div className="text-center">
-              <div className="w-16 h-16 rounded-full bg-purple-500/20 border border-purple-500/50 flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-purple-400">
+              <div className="w-16 h-16 rounded-full bg-pink-500/20 border border-pink-500/50 flex items-center justify-center mx-auto mb-4 text-2xl font-bold text-pink-400">
                 3
               </div>
               <h3 className="text-lg font-semibold mb-2">Start Playing</h3>
@@ -193,7 +194,7 @@ export default function Home() {
       </section>
 
       {/* FAQ Section */}
-      <section id="faq" className="py-20 px-4 bg-gradient-to-b from-black via-purple-950/10 to-black">
+      <section id="faq" className="py-20 px-4 bg-gradient-to-b from-black via-pink-950/10 to-black">
         <div className="max-w-3xl mx-auto">
           <h2 className="text-3xl md:text-4xl font-bold text-center mb-4">
             Frequently Asked Questions
@@ -271,7 +272,7 @@ export default function Home() {
                 </svg>
               </summary>
               <p className="mt-4 text-gray-400">
-                We only collect what&apos;s necessary to make the product work: your Google profile for sign-in, drawings you create, and game positions. We don&apos;t track your browsing or sell your data. Read our <Link href="/privacy" className="text-purple-400 hover:underline">Privacy Policy</Link> for details.
+                We only collect what&apos;s necessary to make the product work: your Google profile for sign-in, drawings you create, and game positions. We don&apos;t track your browsing or sell your data. Read our <Link href="/privacy" className="text-pink-400 hover:underline">Privacy Policy</Link> for details.
               </p>
             </details>
           </div>
@@ -291,12 +292,19 @@ export default function Home() {
             href="https://chrome.google.com/webstore"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block px-8 py-4 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full text-lg font-semibold hover:opacity-90 transition shadow-lg shadow-purple-500/25"
+            className="inline-block px-8 py-4 bg-pink-400 text-black rounded-full text-lg font-bold hover:bg-pink-300 transition shadow-lg shadow-pink-500/25"
           >
             Add to Chrome - It&apos;s Free
           </a>
         </div>
       </section>
+
+      {/* Link to alternate design */}
+      <div className="fixed bottom-4 right-4 z-50">
+        <Link href="/v2" className="px-4 py-2 bg-yellow-400 text-black text-sm font-bold rounded-full shadow-lg hover:bg-yellow-300 transition">
+          View Option B (Yellow)
+        </Link>
+      </div>
     </div>
   );
 }

@@ -1,8 +1,11 @@
 @import "tailwindcss";
 
 :root {
-  --background: #000000;
+  --background: #0a192f;
   --foreground: #ffffff;
+  --accent: #ff1493;
+  --teal: #0d2137;
+  --teal-light: #112d4e;
 }
 
 html {
@@ -20,16 +23,16 @@ body {
 }
 
 ::-webkit-scrollbar-track {
-  background: #111;
+  background: #0a192f;
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #333;
+  background: #1e3a5f;
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #444;
+  background: #2a4a6f;
 }
 
 /* Details/Summary animation */

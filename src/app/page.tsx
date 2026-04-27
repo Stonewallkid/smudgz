@@ -55,15 +55,17 @@ export default function Home() {
           <p className="text-cyan-200/60 text-center mb-12 max-w-2xl mx-auto">
             Watch how Smudgz transforms your browsing experience into a collaborative playground.
           </p>
-          <div className="aspect-video bg-gradient-to-br from-[#112d4e] to-[#1e3a5f] rounded-2xl border border-cyan-400/20 flex items-center justify-center">
-            <div className="text-center">
-              <div className="w-20 h-20 rounded-full bg-pink-500/20 flex items-center justify-center mb-4 mx-auto">
-                <svg className="w-10 h-10 text-pink-400 ml-1" fill="currentColor" viewBox="0 0 24 24">
-                  <path d="M8 5v14l11-7z" />
-                </svg>
-              </div>
-              <p className="text-cyan-200/50">Demo video coming soon</p>
-            </div>
+          <div className="aspect-video rounded-2xl border border-cyan-400/20 overflow-hidden">
+            <iframe
+              width="100%"
+              height="100%"
+              src="https://www.youtube.com/embed/XLi20ZYcniw"
+              title="Smudgz Demo"
+              frameBorder="0"
+              allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+              allowFullScreen
+              className="w-full h-full"
+            />
           </div>
         </div>
       </section>
@@ -241,7 +243,7 @@ export default function Home() {
 
             <details className="group p-6 rounded-2xl bg-white/5 border border-white/10">
               <summary className="flex items-center justify-between cursor-pointer list-none">
-                <span className="font-semibold">Can I draw on drawings?</span>
+                <span className="font-semibold">Can I jump around on drawings?</span>
                 <svg className="w-5 h-5 text-cyan-200/50 group-open:rotate-180 transition-transform" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M19 9l-7 7-7-7" />
                 </svg>

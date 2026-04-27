@@ -68,6 +68,9 @@ export default function RootLayout({
                 © 2026 Smudgz. All rights reserved.
               </div>
               <div className="flex items-center gap-6 text-sm text-cyan-200/50">
+                <Link href="/press" className="hover:text-white transition">
+                  Press
+                </Link>
                 <Link href="/privacy" className="hover:text-white transition">
                   Privacy Policy
                 </Link>

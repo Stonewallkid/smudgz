@@ -22,7 +22,7 @@ export default function Home() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="https://chrome.google.com/webstore"
+              href="https://chromewebstore.google.com/detail/smudgz/gfhnokmdeeneocjoifajjbcniidpfnnf"
               target="_blank"
               rel="noopener noreferrer"
               className="px-8 py-4 bg-gradient-to-r from-pink-500 to-pink-600 rounded-full text-lg font-semibold hover:opacity-90 transition shadow-lg shadow-pink-500/25"
@@ -59,7 +59,7 @@ export default function Home() {
             <iframe
               width="100%"
               height="100%"
-              src="https://www.youtube.com/embed/XLi20ZYcniw"
+              src="https://www.youtube.com/embed/6y-JjMsFU-o"
               title="Smudgz Demo"
               frameBorder="0"
               allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -290,7 +290,7 @@ export default function Home() {
             Join thousands of users turning the internet into their playground.
           </p>
           <a
-            href="https://chrome.google.com/webstore"
+            href="https://chromewebstore.google.com/detail/smudgz/gfhnokmdeeneocjoifajjbcniidpfnnf"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block px-8 py-4 bg-gradient-to-r from-pink-500 to-pink-600 rounded-full text-lg font-semibold hover:opacity-90 transition shadow-lg shadow-pink-500/25"

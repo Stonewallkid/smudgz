@@ -46,7 +46,7 @@ export default function RootLayout({
                 FAQ
               </Link>
               <a
-                href="https://chrome.google.com/webstore"
+                href="https://chromewebstore.google.com/detail/smudgz/gfhnokmdeeneocjoifajjbcniidpfnnf"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="px-4 py-2 bg-gradient-to-r from-pink-500 to-pink-600 rounded-full text-sm font-medium hover:opacity-90 transition"
